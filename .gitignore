@@ -169,3 +169,6 @@ histories
 # Exclude any solution
 *solution*
 *Solution*
+
+labs/femnist.tar.gz
+labs/device_info.tar.gz
