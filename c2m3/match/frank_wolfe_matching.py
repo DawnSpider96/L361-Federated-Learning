@@ -19,7 +19,7 @@ from c2m3.match.utils import (
     perm_rows,
 )
 from c2m3.match.weight_matching import solve_linear_assignment_problem, weight_matching
-from ccmm.utils.utils import ModelParams, to_np
+from c2m3.utils.utils import ModelParams, to_np
 
 pylogger = logging.getLogger(__name__)
 

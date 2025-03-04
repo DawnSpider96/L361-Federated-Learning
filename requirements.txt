@@ -43,7 +43,7 @@ executing==2.2.0
 fastjsonschema==2.21.1
 filelock==3.17.0
 flake8==3.9.2
-flwr @ git+https://github.com/Iacob-Alexandru-Andrei/flower.git@1c4fcc1d4a6e8022ddf6f94ebedef1b8e70e0fc4
+flwr @ git+ssh://github.com/Iacob-Alexandru-Andrei/flower.git@1c4fcc1d4a6e8022ddf6f94ebedef1b8e70e0fc4
 fonttools==4.56.0
 fqdn==1.5.1
 frozenlist==1.5.0
@@ -86,7 +86,7 @@ jupyterlab_pygments==0.3.0
 jupyterlab_server==2.27.3
 jupyterlab_widgets==3.0.13
 kiwisolver==1.4.8
--e git+https://github.com/camlsys/private-L361-Federated-Learning.git@ef5d0af8037162c2c004eb4a0291312e5d351b52#egg=labs
+-e git+ssh://github.com/camlsys/private-L361-Federated-Learning.git@ef5d0af8037162c2c004eb4a0291312e5d351b52#egg=labs
 lazy-object-proxy==1.10.0
 lazy_loader==0.4
 librosa==0.10.1

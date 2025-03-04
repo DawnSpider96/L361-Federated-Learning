@@ -4,10 +4,8 @@ from typing import Dict, List
 import torch
 import torch.nn as nn
 
-# Untouched imports because lazy
-# and I don't think I'm using ResNets yet
-from ccmm.models.repaired_resnet import RepairedResNet
-from ccmm.models.resnet import ResNet
+from c2m3.models.repaired_resnet import RepairedResNet
+from c2m3.models.resnet import ResNet
 
 from c2m3.utils.utils import fuse_batch_norm_into_conv
 
