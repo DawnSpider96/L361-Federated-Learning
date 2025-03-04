@@ -2,5 +2,40 @@
     "cSpell.language": "en-GB",
     "cSpell.words": [
         "FEMNIST"
-    ]
+    ],
+    "launch": {
+        "configurations": [
+            {
+                "name": "Python Debugger: ccmmm",
+                "type": "debugpy",
+                "request": "launch",
+                "program": "${file}",
+                "console": "integratedTerminal",
+                "justMyCode": false,
+                "purpose": ["debug-in-terminal"],
+                "env": {
+                    "PYDEVD_IPYTHON_COMPATIBLE_DEBUGGING": "1"
+                }
+            },
+            {
+                "name": "Debug ccmmm",
+                "type": "python",
+                "request": "launch",
+                "console": "integratedTerminal",
+                "justMyCode": false,
+                "env": {
+                    "PYDEVD_IPYTHON_COMPATIBLE_DEBUGGING": "1"
+                }
+            },
+            {
+                "name": "jup",
+                "type": "Python Kernel Debug Adapter",
+                "request": "launch",
+                "env": {
+                    "PYDEVD_IPYTHON_COMPATIBLE_DEBUGGING": "1"
+                }
+            }
+        ],
+        "compounds": []
+    }
 }
